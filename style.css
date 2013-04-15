@@ -81,7 +81,8 @@ hr {
 	font-family: 'Merriweather', serif;
 	padding: 5px 10px;
 }
-.nav-links a:hover {
+.nav-links a:hover,
+.nav-links a.active {
 	background-color: #292929;
 }
 
