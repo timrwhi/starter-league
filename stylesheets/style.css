@@ -104,14 +104,25 @@ code {
 	margin: 0 auto;
 }
 .col-1,.col-2,.col-3 {
+	width: 30%;
 	max-width: 290px;
+<<<<<<< HEAD:stylesheets/style.css
 	width: 30.208333333%;
+=======
+	min-width: 200px;
+>>>>>>> tooltips and homepage:style.css
 	float: left;
 	margin: 0 1.5625%;
 }
 .col-1-2,.col-2-3 {
+<<<<<<< HEAD:stylesheets/style.css
 	max-width: 625px;
 	width: 65.104166666%;
+=======
+	width: 60%;
+	max-width: 630px;
+	width: 100%;
+>>>>>>> tooltips and homepage:style.css
 }
 .col-1-2 {
 	margin-right: 1.5625%;
@@ -160,9 +171,12 @@ code {
 	color: #fff;
 	float: left;
 	background: none;
+<<<<<<< HEAD:stylesheets/style.css
 }
 .title-headline a:hover {
 	background: none;
+=======
+>>>>>>> tooltips and homepage:style.css
 }
 .profile-photo {
 	background-image: url("../tim.JPG");
@@ -353,6 +367,7 @@ button.close {
 .tooltip:hover span{
 	display: block;
 	padding: 5px 10px;
+<<<<<<< HEAD:stylesheets/style.css
 
 /****************
 ***** JOURNAL ARTICLES *****
@@ -362,6 +377,8 @@ article {
 	margin: 60px 0 0 0;
 	padding: 0 15px 15px 0;
 	position: relative;
+=======
+>>>>>>> tooltips and homepage:style.css
 }
 article p:first-of-type {
 	text-indent: 0;
