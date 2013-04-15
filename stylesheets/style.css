@@ -63,6 +63,7 @@ code {
 .primary-nav {
 	width: 100%;
 	background-color: #C75724;
+	border-bottom: 5px solid #ddd
 }
 .nav-wrapper {
 	max-width: 960px;
@@ -97,13 +98,16 @@ code {
 ***** GRID *****
 ****************/
 .grid-layout {
+	width: 100%;
 	max-width: 960px;
 	width: 100%;
 	margin: 0 auto;
 }
 .col-1,.col-2,.col-3 {
+	width: 30%;
 	max-width: 290px;
 	width: 30.208333333%;
+	min-width: 200px;
 	float: left;
 	margin: 0 1.5625%;
 }
@@ -120,6 +124,7 @@ code {
 	float: left;
 }
 .col-1-2-3 {
+	width: 100%;
 	max-width: 960px;
 	width: 100%;
 	margin: 60px 0;
@@ -148,20 +153,21 @@ code {
 .home-intro {
 	background-color: #EBEEF2;
 	font-size: 22px;
-	border-bottom: 2px solid #ddd;
+	/*border-bottom: 5px solid #ddd;*/
 }
-.title-headline a {
+.title-headline, .title-headline a, .title-headline a:hover {
 	font-size: 80px;
 	font-weight: 400;
 	display: block;
 	color: #fff;
 	float: left;
+	background: none;
 }
 .title-headline a:hover {
 	background: none;
 }
 .profile-photo {
-	background-image: url("tim.JPG");
+	background-image: url("../tim.JPG");
 	border-radius: 200px;
 	border: 5px solid #ddd;
 	width: 240px;
