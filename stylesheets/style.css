@@ -104,6 +104,7 @@ code {
 	margin: 0 auto;
 }
 .col-1,.col-2,.col-3 {
+	max-width: 290px;
 	width: 30.208333333%;
 	float: left;
 	margin: 0 1.5625%;
