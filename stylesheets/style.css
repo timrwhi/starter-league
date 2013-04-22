@@ -170,7 +170,7 @@ code {
 	background: none;
 }
 .profile-photo {
-	background-image: url("../tim.JPG");
+	background-image: url("tim.JPG");
 	border-radius: 200px;
 	border: 5px solid #ddd;
 	width: 240px;
