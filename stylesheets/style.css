@@ -104,10 +104,7 @@ code {
 	margin: 0 auto;
 }
 .col-1,.col-2,.col-3 {
-	width: 30%;
-	max-width: 290px;
 	width: 30.208333333%;
-	min-width: 200px;
 	float: left;
 	margin: 0 1.5625%;
 }
@@ -355,7 +352,6 @@ button.close {
 .tooltip:hover span{
 	display: block;
 	padding: 5px 10px;
-}
 
 /****************
 ***** JOURNAL ARTICLES *****
@@ -382,7 +378,6 @@ article date {
 	position: absolute;
 	top: 0;
 	right: -91px;
-}
 
 /****************
 ***** FOOTER *****
