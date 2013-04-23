@@ -61,12 +61,12 @@ code {
 ***** NAV *****
 ****************/
 .primary-nav {
-	width: 100%;
 	background-color: #C75724;
 	border-bottom: 5px solid #ddd
 }
 .nav-wrapper {
 	max-width: 960px;
+	width: 100%;
 	margin: 0 auto;
 	padding: 20px 0 0 0;
 }
@@ -100,8 +100,12 @@ code {
 .grid-layout {
 	width: 100%;
 	max-width: 960px;
-	width: 100%;
 	margin: 0 auto;
+}
+.col-1-2-3 {
+	max-width: 960px;
+	width: 100%;
+	margin: 60px 0;
 }
 .col-1,.col-2,.col-3 {
 	max-width: 290px;
@@ -122,12 +126,6 @@ code {
 	margin-left: 1.5625%;
 	float: left;
 }
-.col-1-2-3 {
-	width: 100%;
-	max-width: 960px;
-	width: 100%;
-	margin: 60px 0;
-}
 .home-intro .col-2-3 {
 	padding: 30px 1.5625%;
 }
@@ -138,6 +136,13 @@ code {
 /****************
 ***** STYLES *****
 ****************/
+.skill {
+	display: block;
+	width: attr('data-width'+'px');
+	padding: 20px 10px;
+	margin: 10px 0;
+	background-color: green;
+}
 .post-meta {
 	border-top: 1px solid #ddd;
 	border-bottom: 1px solid #ddd;
